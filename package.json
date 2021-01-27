@@ -1,0 +1,22 @@
+{
+  "name": "introduccion-a-js-intento2020",
+  "version": "1.0.0",
+  "description": "tarea del curso de programacion de r/argentina",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitipe/introduccion-a-js-intento2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitipe/introduccion-a-js-intento2020/issues"
+  },
+  "homepage": "https://github.com/vitipe/introduccion-a-js-intento2020#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
