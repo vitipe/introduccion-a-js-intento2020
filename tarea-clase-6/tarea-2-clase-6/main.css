@@ -1,0 +1,44 @@
+body {
+    background-color: #F4F1De;
+    font: 1.2em "Montserrat";
+   
+  }
+
+form {
+    position: center;
+    text-align: center;
+    position: center;
+    font: 0.8em "Noto Sans", sans-serif;
+    background-color: #F2CC8F;
+  }
+
+button {
+    background-color: #E07A5F;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    font: 1em "Noto Sans", sans-serif;
+  }
+
+header {
+    text-align: center;
+    height: fit-content;
+    color: white;
+    background-color: #3D405B;
+}
+
+#firma{
+    text-align:center;
+    font: 0.9em "Noto Sans", sans-serif;
+    background-color: #81B29A;
+}
+#boton-calcular {
+  display: none;
+}
+#boton-resetear {
+  display: none;
+}
