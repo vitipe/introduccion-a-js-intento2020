@@ -5,22 +5,23 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Clase 6 Tarea</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' href='node_modules\bootstrap\dist\css\bootstrap.min.css'>
-</head>
+    <link rel='stylesheet' href='../../node_modules\bootstrap\dist\css\bootstrap.min.css'>
 <header>
     <h1>Tarea Clase 6 Bootstrap</h1>
 </header>
 <body>
-    <form id="formulario">
-        <label>
-            ¿Cuantas personas conforman tu grupo familiar?
-        </label>
-        <input type="number" min="0" max="20" id="cantidad-familiares"/>
-        <button id=boton-calculo>Agregar</button>
-        <p id="resultado-mayor-edad"></p>
-        <p id="resultado-menor-edad"></p>
-        <p id="resultado-promedio-edad"></p>
-    </form>
+    <div class="container">
+        <form id="formulario">
+            <label>
+                ¿Cuantas personas conforman tu grupo familiar?
+            </label>
+            <input type="number" min="0" max="20" id="cantidad-familiares"/>
+            <button id=boton-calculo>Agregar</button>
+            <p id="resultado-mayor-edad"></p>
+            <p id="resultado-menor-edad"></p>
+            <p id="resultado-promedio-edad"></p>
+        </form>
+    </div>
 </body>
 <p id=firma>Autor: Víctor Hugo Peñas</p>
 <script src='tarea-clase-6.js'></script>

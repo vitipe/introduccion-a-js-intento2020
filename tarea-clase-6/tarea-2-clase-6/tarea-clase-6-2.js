@@ -5,7 +5,7 @@
 
 function crearArraySueldos(){
     let arraySueldos = [];
-    let nodeValuesSueldos = document.querySelectorAll('.input-sueldo')
+    let nodeValuesSueldos = document.querySelectorAll('input')
 
     for (let i = 0; i<nodeValuesSueldos.length; i++){
         if (nodeValuesSueldos[i].value != ''){ //aca tambien se puede usar un "continue" que saltea la iteración
@@ -57,7 +57,7 @@ function crearInputsSueldo(){
     let textoLabel = document.createTextNode('Salario familiar ' + numeroDeFamiliar);
     nuevoDiv.className = 'div-sueldo';
     nuevoInput.type = 'number';
-    nuevoInput.className = 'input-sueldo';
+    nuevoInput.className = 'form-control';
 
     nuevoLabel.appendChild(textoLabel);
     nuevoDiv.appendChild(nuevoLabel);
@@ -100,6 +100,8 @@ $botonCalcular.onclick = function(){
     document.querySelector('#resultado-promedio-anual-sueldo').textContent = "El sueldo anual promedio es " + calcularSalarioAnualPromedio(crearArraySueldos());
     document.querySelector('#resultado-promedio-mensual-sueldo').textContent = "El sueldo mensual promedio es " + calcularSalarioMensualPromedio(crearArraySueldos());
     document.querySelector('#boton-resetear').style.display = "block";
+
+    return false;
 };
 
 //Boton resetear
