@@ -56,6 +56,7 @@ function crearBotonCalcular() {
     let $botonCalcular = document.createElement('button');
     const $formulario = document.querySelector("#formulario");
     $botonCalcular.textContent = "Calcular edad";
+    $botonCalcular.id = "boton-calcular"
     $formulario.appendChild($botonCalcular);
 
     $botonCalcular.onclick = function(){
@@ -86,6 +87,7 @@ function crearBotonResetear() {
     const $formulario = document.querySelector("#formulario");
     let botonResetear = document.createElement("button");
     botonResetear.textContent = "Resetear formulario";
+    botonResetear.id = "boton-resetear"
     $formulario.appendChild(botonResetear);
 
     botonResetear.onclick = function(){
